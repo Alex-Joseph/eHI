@@ -1,0 +1,30 @@
+body {
+  background-color: #222;
+  color: #ccc;
+}
+@media only screen and (min-width: 992px) {
+  /* for desktop */
+  .main-card {
+    width: 500px;
+    margin: 50px auto;
+    color: #ccc;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 577px) {
+  /* for tablet */
+  .main-card {
+    width: 500px;
+    margin: 50px auto;
+    color: #ccc;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* for mobile */
+  .main-card {
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+  }
+}
